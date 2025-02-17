@@ -22,6 +22,43 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  height: 100%;
 
   background-color: var(--rose50);
+}
+
+.container-fluid {
+  /* height: 100%; */
+}
+
+.items__container {
+  /* border: 1px solid magenta; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.container {
+  /* border: 1px solid aqua; */
+}
+
+header.logo h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--rose900);
+}
+
+.item__card-img {
+  background: url('/assets/images/image-waffle-desktop.jpg');
+  height: 240px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+}
+
+.container.cart {
+  /* border: 1px solid red; */
 }
